@@ -88,7 +88,7 @@ public class ArmShopBridge extends JavaPlugin {
         if(versionNumbers.size() == 0) {
             return;
         }
-        if(versionNumbers.get(0) >= 4) {
+        if(versionNumbers.get(0) < 5) {
             addAdapter(adapters, "QuickShop", "net.alex9849.armshopbridge.adapters.QuickShop4Adapter");
         } else {
             addAdapter(adapters, "QuickShop", "net.alex9849.armshopbridge.adapters.QuickShopAdapter");
